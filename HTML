@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta Charset="Utf-8">
+</head> 
+<body>
+<div id="container" style="width: 1000px; margin: 0 auto;">
+ 
+<div id="header" style="background-color:#FFA500;text-align: center;">
+<h1 style="margin: 0;">Main title</h1>
+</div>
+ 
+<div id="menu" style="background-color: #FFD700; height: 1282px;width: 180px; float: left;padding: 10px;text-align: center;">
+<b>Menu</b><br><br>
+Html<br>
+CSS<br>
+JavaScript
+</div>
+ 
+<div id="content" style="background-color:#EEEEEE;width: 780px;float: left;padding: 10px">
+<form action="mailto:adres e-mail?subject=temat" method="post">
+<div>
+    Imie: <input type="text" name="imie"><br><br>
+    Email: <input type="text" name="email"><br><br>
+    Komentarz:  <br><textarea name="text" cols="88" rows="12">...</textarea><br><br>
+    <input type="submit" value="OK"><br><br>
+</div>
+</form>
+ 
+<form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
+ 
+Podaj swoje imię: <input name="Imię"><br>
+Podaj swoje nazwisko: <input name="Nazwisko">
+ 
+<p>Podaj swoją płeć</p>
+<input type="radio" name="Płeć" value="Kobieta">Kobieta
+<input type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+ 
+<p>Ile masz lat?</p>
+<input type="radio" name="Wiek" value="mniej niż 15">mniej niż 15<br>
+<input type="radio" name="Wiek" value="15-19">15-19<br>
+<input type="radio" name="Wiek" value="20-29">20-29<br>
+<input type="radio" name="Wiek" value="30-39">30-39<br>
+<input type="radio" name="Wiek" value="40-60">40-60<br>
+<input type="radio" name="Wiek" value="więcej niż 60">więcej niż 60 
+ 
+<p>Jaką lubisz muzykę ?</p>
+<input type="checkbox" name="Muzyka" value="Rock">Rock<br>
+<input type="checkbox" name="Muzyka" value="Indie">Indie Rock<br>
+<input type="checkbox" name="Muzyka" value="Pop">Pop<br>
+<input type="checkbox" name="Muzyka" value="Techno">Techno<br>
+<input type="checkbox" name="Muzyka" value="Muzyka poważna">Muzyka poważna<br>
+<input type="checkbox" name="Muzyka" value="Inna">Inna (podaj jaka):
+<input name="Muzyka">
+ 
+<p>Jakiej przeglądarki internetowej używasz?</p>
+<select name="Przeglądarka">
+    <option selected>Internet Explorer</option>
+    <option>Chrome</option>
+    <option>Edge</option>
+    <option>Mozilla</option>
+    <option>Inna</option>
+</select>
+ 
+<p>Jakie znasz systemy operacyjne (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+<select name="System operacyjny" multiple size="3">
+    <option selected>Dos</option>
+    <option>Windows</option>
+    <option>MacOS</option>
+    <option>Inny</option>
+</select>
+ 
+<p>Podaj swój komentarz:</p>
+<textarea name="Komentarz" cols="88" rows="12">...</textarea>
+<br><br><br>
+ 
+<input type="submit" value="OK">
+ 
+<input type="reset" value="Wyczyść dane">
+</div></form>
+</div>
+ 
+ 
+ 
+<div id="footer" style="background-color:#ffa500;clear: both;text-align: center;">
+Copyright AC :)
+</div>
+ 
+</div>
+</body>
+</html>
